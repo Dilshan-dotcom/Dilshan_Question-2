@@ -950,6 +950,12 @@ a.whatsapp-button {
     font-weight: 500;
 }
 
+.verify-btn{
+    color: #fff !important;
+    border-color: #8F1AB9 !important;
+    background-color: #8F1AB9 !important
+}
+
 .info-course span{
     width: 100%;
     padding-bottom: 0px;
