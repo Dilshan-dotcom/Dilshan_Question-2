@@ -1,12 +1,1697 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Globaledulink</title>
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- fontawesome cdn     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <!-- owl-carousel-cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/index.css">
+
+
 </head>
+
 <body>
-    
+
+
+    <!-- --------------------navbar -------------------- -->
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container d-flex align-items-center">
+                <a class="navbar-brand" href="#"><img src="./images/main-logo1.png"><span><img
+                            src="./images/main-logo2.png"></span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mt-md-3 mb-lg-0 align-items-center">
+                        <li class="nav-item ms-md-5">
+                            <a class="nav-link text-uppercase" aria-current="page" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase ms-md-3" href="#">Awarding Bodies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase ms-md-3" href="#">Our Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase ms-md-3" href="#">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <button type="button"
+                                class="btn btn-outline-primary ms-md-5 rounded-pill enquire-btn">Enquire Now</button>
+                        </li>
+
+                        <li class="nav-item">
+                            <i class="fa-solid fa-magnifying-glass ms-md-5 nav-icons"></i>
+                        </li>
+
+                        <li class="nav-item">
+                            <i class="fa-sharp fa-solid fa-heart ms-md-4 nav-icons"></i>
+                        </li>
+
+                        <li class="nav-item">
+                            <i class="fa fa-shopping-basket ms-md-4 nav-icons"></i>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="" class="text-uppercase login-text text-decoration-none">Login</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <button type="button"
+                                class="btn btn-outline-primary  ms-md-2 rounded-pill register-btn">Register</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- -------------------- main-banner -------------------- -->
+    <section id="main-banner-area">
+        <div class="main-banner-col">
+            <div class="container">
+                <div class="row h-100 align-items-center">
+                    <div class="col-md-6">
+                        <img src="./images/main-banne-img1.png" class="d-none d-lg-block" width="400px">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content_div pe-4 ps-5 d-none d-lg-block">
+                            <h1>ACCREDITED ONLINE LEARNING FROM ANYWHERE</h1>
+                            <p class="text-white">Get accredited qualifications from anywhere and access course content
+                                on any device.</p>
+                            <div class="mb-4 mt-3 position-relative">
+                                <input name="post_type" type="hidden" value="course">
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-search"></i></span>
+                                    <input type="search" name="s" id="search_s" autocomplete="off" alt="2"
+                                        class="form-control fr_search_key fr_search_key_ad">
+                                </div>
+                                <div id="search-container-2" class="fr-search-list "></div>
+                            </div>
+                            <div class="d-flex">
+                                <a href="">
+                                    <img src="./images/main-banner-img2.png" width="100%" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 d-md-none mobile-banner pt-5">
+                        <h1>ACCREDITED ONLINE LEARNING FROM ANYWHERE</h1>
+                        <p class="text-white">Get accredited qualifications from anywhere and access course content on
+                            any device.</p>
+                        <div class="mb-4 mt-3 position-relative">
+                            <input name="post_type" type="hidden" value="course">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1"><i class="fa fa-search"></i></span>
+                                <input type="search" name="s" id="search_s" autocomplete="off" alt="2"
+                                    class="form-control fr_search_key fr_search_key_ad">
+                            </div>
+                            <div id="search-container-2" class="fr-search-list "></div>
+                            <div class="d-flex">
+                                <a href="">
+                                    <img src="./images/main-banner-img2.png" width="100%" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- count-area -->
+    <section id="count-area">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 p-0">
+                    <div class="counter-sec">
+                        <div class="count">
+                            <h2>10</h2>+
+                        </div>
+                        <p class="count-desc  text-center">Years of Experience</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 p-0">
+                    <div class="counter-sec">
+                        <div class="count">
+                            <h2>900</h2>+
+                        </div>
+                        <p class="count-desc  text-center">Online Courses</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 p-0">
+                    <div class="counter-sec">
+                        <div class="count">
+                            <h2>480,000</h2>+
+                        </div>
+                        <p class="count-desc  text-center">Happy Learners</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 p-0">
+                    <div class="counter-sec">
+                        <div class="count">
+                            <h2>150</h2>+
+                        </div>
+                        <p class="count-desc text-center">Expert Instructors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- couse-area -->
+    <section id="course-area">
+        <div class="container course-col">
+            <h1 class="text-center heading mb-5">TOGETHER, SHAPING YOUR FUTURE</h1>
+
+            <ul class="nav nav-tabs justify-content-center align-items-center" id="myTab" role="tablist">
+                <ul class="nav nav-tabs justify-content-center align-items-center" id="myTab" role="tablist">
+                    <ul class="nav nav-tabs justify-content-center align-items-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active no-border-radius no-border-radius-right" id="home-tab"
+                                data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab"
+                                aria-controls="home" aria-selected="true">Popular Courses</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link new-courses-tab no-border-radius-left" id="profile-tab"
+                                data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab"
+                                aria-controls="profile" aria-selected="false">New Courses</button>
+                        </li>
+                    </ul>
+
+                </ul>
+
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row mt-4">
+                        <div class="col-md-3">
+                            <div class="course-card">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="star-rating">
+                                            <span>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="float-end">
+                                            <span class="heart-icon"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                                </h3>
+                                <div class="course_info">
+                                    <img width="300" height="138" src="./images/course_img1.jpeg"
+                                        class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                                class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                                aria-hidden="true"><span
+                                                    class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                            £1,199.00 </bdi></div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-md-6">
+                                        <button type="button"
+                                            class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button"
+                                            class="btn btn-primary course-buy-btn rounded-pill w-100">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="course-card">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="star-rating">
+                                            <span>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="float-end">
+                                            <span class="heart-icon"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                                </h3>
+                                <div class="course_info">
+                                    <img width="300" height="138" src="./images/course_img2.jpeg"
+                                        class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                                class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                                aria-hidden="true"><span
+                                                    class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                            £1,199.00 </bdi></div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-md-6">
+                                        <button type="button"
+                                            class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button"
+                                            class="btn btn-primary course-buy-btn rounded-pill w-100">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="course-card">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="star-rating">
+                                            <span>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="float-end">
+                                            <span class="heart-icon"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                                </h3>
+                                <div class="course_info">
+                                    <img width="300" height="138" src="./images/course_img3.jpeg"
+                                        class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                                class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                                aria-hidden="true"><span
+                                                    class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                            £1,199.00 </bdi></div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-md-6">
+                                        <button type="button"
+                                            class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button"
+                                            class="btn btn-primary course-buy-btn rounded-pill w-100">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="course-card">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="star-rating">
+                                            <span>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                                <i class="fa fa-star star-icon"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="float-end">
+                                            <span class="heart-icon"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                                </h3>
+                                <div class="course_info">
+                                    <img width="300" height="138" src="./images/course_img4.jpeg"
+                                        class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                    <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                                class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                                aria-hidden="true"><span
+                                                    class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                            £1,199.00 </bdi></div>
+                                </div>
+
+                                <div class="row mt-2">
+                                    <div class="col-md-6">
+                                        <button type="button"
+                                            class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button"
+                                            class="btn btn-primary course-buy-btn rounded-pill w-100">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="course-card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="star-rating">
+                                        <span>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="float-end">
+                                        <span class="heart-icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="course-card-title"><a href="" class="title">CeMAP Certificate in Mortgage Advice (Module 1)</a>
+                            </h3>
+                            <div class="course_info">
+                                <img width="300" height="138" src="./images/course_img1.jpeg"
+                                    class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                            class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                            aria-hidden="true"><span
+                                                class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                        £1,199.00 </bdi></div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <button type="button"
+                                        class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary course-buy-btn rounded-pill w-100">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="course-card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="star-rating">
+                                        <span>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="float-end">
+                                        <span class="heart-icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                            </h3>
+                            <div class="course_info">
+                                <img width="300" height="138" src="./images/course_img2.jpeg"
+                                    class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                            class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                            aria-hidden="true"><span
+                                                class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                        £1,199.00 </bdi></div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <button type="button"
+                                        class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary course-buy-btn rounded-pill w-100">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="course-card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="star-rating">
+                                        <span>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="float-end">
+                                        <span class="heart-icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                            </h3>
+                            <div class="course_info">
+                                <img width="300" height="138" src="./images/course_img3.jpeg"
+                                    class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                            class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                            aria-hidden="true"><span
+                                                class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                        £1,199.00 </bdi></div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <button type="button"
+                                        class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary course-buy-btn rounded-pill w-100">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="course-card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="star-rating">
+                                        <span>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="float-end">
+                                        <span class="heart-icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                            </h3>
+                            <div class="course_info">
+                                <img width="300" height="138" src="./images/course_img4.jpeg"
+                                    class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                            class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                            aria-hidden="true"><span
+                                                class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                        £1,199.00 </bdi></div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <button type="button"
+                                        class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary course-buy-btn rounded-pill w-100">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <div class="course-card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="star-rating">
+                                        <span>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="float-end">
+                                        <span class="heart-icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                            </h3>
+                            <div class="course_info">
+                                <img width="300" height="138" src="./images/course_img4.jpeg"
+                                    class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                            class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                            aria-hidden="true"><span
+                                                class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                        £1,199.00 </bdi></div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <button type="button"
+                                        class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary course-buy-btn rounded-pill w-100">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="course-card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="star-rating">
+                                        <span>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="float-end">
+                                        <span class="heart-icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                            </h3>
+                            <div class="course_info">
+                                <img width="300" height="138" src="./images/course_img4.jpeg"
+                                    class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                            class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                            aria-hidden="true"><span
+                                                class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                        £1,199.00 </bdi></div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <button type="button"
+                                        class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary course-buy-btn rounded-pill w-100">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="course-card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="star-rating">
+                                        <span>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="float-end">
+                                        <span class="heart-icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                            </h3>
+                            <div class="course_info">
+                                <img width="300" height="138" src="./images/course_img4.jpeg"
+                                    class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                            class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                            aria-hidden="true"><span
+                                                class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                        £1,199.00 </bdi></div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <button type="button"
+                                        class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary course-buy-btn rounded-pill w-100">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="course-card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="star-rating">
+                                        <span>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                            <i class="fa fa-star star-icon"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="float-end">
+                                        <span class="heart-icon"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="course-card-title">CIPD Level 3 Foundation Certificate in People Practice
+                            </h3>
+                            <div class="course_info">
+                                <img width="300" height="138" src="./images/course_img4.jpeg"
+                                    class="rounded-circle wp-post-image" sizes="(max-width: 300px) 100vw, 300px">
+                                <div class="info-course"> <span><i class="fa fa-clock"></i> 1 year</span> <span><i
+                                            class="fa fa-trophy"></i> 'CIPD'</span> <bdi class="price"> <del
+                                            aria-hidden="true"><span
+                                                class="amount text-reset me-2"><bdi>£2,199.00</bdi></span></del>
+                                        £1,199.00 </bdi></div>
+                            </div>
+
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <button type="button"
+                                        class="btn btn-outline-primary course-detail-btn rounded-pill w-100">Details</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-primary course-buy-btn rounded-pill w-100">Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- interest-area -->
+
+    <section id="interest-area">
+        <div class="container course-col">
+            <h1 class="text-center heading mb-5 text-white">AREAS OF INTEREST</h1>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img1.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8 d-flex align-items-center">
+                                    <p class="interest-aera-text">Project Management</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img2.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Business & Management</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img3.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Teaching & Education</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img4.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Accounting & Finance</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img5.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Office Admin & Reception</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img6.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Hospitality Travel & Tourism</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img7.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Information Technology</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img8.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Health & Social Care</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img9.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Employability Skills</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img10.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Veterinary And Animal Care</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-3">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img11.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Veterinary And Animal Care</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img12.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">HR & Leadership</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img13.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Sales & Marketing</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img14.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">General Maths & Statistics</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img15.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Science & Engineering</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="interest-aera-card p-2">
+                        <a href="" class="interest-area-card-col text-decoration-none">
+                            <div class="row align-items-center g-4">
+                                <div class="col-md-4 interest-area-image">
+                                    <img src="./images/intereat_area_img16.png" class="img-fluid">
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="interest-aera-text">Science & Engineering</p>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- fixed whatsapp -->
+    <a href="" class="whatsapp-button" target="_blank"
+        style="position: fixed;  right: 15px; bottom: 15px;z-index: 100;">
+        <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp">
+    </a>
+
+    <!-- fixed chat  -->
+    <a href="" class="chat-button" target="_blank" style="position: fixed;  right: 15px; bottom: 15px;z-index: 100;">
+        <button type="button" class="btn btn-primary chat-btn"><i class="fa fa-comment me-2"></i>Chat</button>
+    </a>
+    <!-- popular-course-area -->
+
+    <section id="popular-course-area">
+        <div class="container course-col">
+            <h1 class="text-center heading mb-5 text-dark">OUR POPULAR LIVE ONLINE COURSES</h1>
+            <div class="row mb-5">
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="popular-course-area-card">
+                        <div class="popular-course-area-img-col">
+                            <img src="./images/popular_course_img1.png" height="60" class="popular_course_img">
+                            <bdi class="popular_price">£219</bdi>
+                        </div>
+                        <h3 class="popular-course-area-card-text mt-3 mb-2">Pearson BTEC Level 3 Award in Education and
+                            Training (RQF)(Formerly PTLLS)</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="popular-course-area-card">
+                        <div class="popular-course-area-img-col">
+                            <img src="./images/popular_course_img2.jpeg" height="60" class="popular_course_img">
+                            <bdi class="popular_price">£589</bdi>
+                        </div>
+                        <h3 class="popular-course-area-card-text mt-3 mb-2">ITIL 4 Foundation</h3>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="popular-course-area-card">
+                        <div class="popular-course-area-img-col">
+                            <img src="./images/popular_course_img3.jpeg" height="60" class="popular_course_img">
+                            <bdi class="popular_price">£849</bdi>
+                        </div>
+                        <h3 class="popular-course-area-card-text mt-3 mb-2">Prince2 Foundation</h3>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6">
+                    <div class="popular-course-area-card">
+                        <div class="popular-course-area-img-col">
+                            <img src="./images/popular_course_img4.png" height="60" class="popular_course_img">
+                            <bdi class="popular_price">£499</bdi>
+                        </div>
+                        <h3 class="popular-course-area-card-text mt-3 mb-2">Foundation Certificate in Business Analysis
+                        </h3>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="text-center">
+                <a href="" class="view-all-btn text-uppercase text-center mb-4">View All</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- reviews-area -->
+    <section id="reviews-area">
+        <div class="container course-col">
+            <h1 class="text-center heading mb-5 text-dark">WE HAVE GREAT REVIEWS</h1>
+            <div class="row all__review pt-0 gx-0">
+                <div class="col-lg-3 col-md-4 d-flex align-items-center justify-content-center">
+                    <div class="left_bx_reevis text-center">
+                        <a href="">
+                            <img alt="" src="./images/review_img1.png" class="img-fluid">
+                        </a>
+                        <p><span style="font-weight: bold;">4.8</span> Rating <strong>1,748</strong> Reviews</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-lg-9 col-md-8">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="" class="text-decoration-none">
+                                <div class="widget reviews__box">
+                                    <span class="star-rating float-end text-warning"><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                    <h4 class="text-dark fw-bold">Shelley Marshall</h4>
+                                    <p class="fw-light">I have loved doing this level 4 Skincare course with Global Ed.
+                                        The information in this course is indepth. Lots of digestable information.I love
+                                        the workbooks I can download and go back to.</p>
+                                    <div class="posted_dated">Posted 1 day ago</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="" class="text-decoration-none">
+                                <div class="widget reviews__box">
+                                    <span class="star-rating float-end text-warning"><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                    <h4 class="text-dark">Corey Airey</h4>
+                                    <p>Very informative course. I have learnt alot and found the course easy to follow.
+                                        The tutors and staff are very helpful if you run into an issues.</p>
+                                    <div class="posted_dated">Posted 4 days ago</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="" class="text-decoration-none">
+                                <div class="widget reviews__box">
+                                    <span class="star-rating float-end text-warning"><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                                    <h4 class="text-dark">Tash</h4>
+                                    <p>I bought an online course 'Diploma in Office Administration and Reception' and
+                                        was NOT disappointed! The course is very detailed, and whilst I more so bought
+                                        it as a refresher for myself.</p>
+                                    <div class="posted_dated">Posted 4 days ago</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5">
+
+                <div class="row m-0 g-0">
+                    <div class="col-md-6">
+                        <div class="apply-course-card"
+                            style="background-image:url('./images/Global-Edulink-Free-Courses.jpeg');">
+                            <div class="apply-course-card-content">
+                                <h3>Amazing Free Courses</h3>
+                                <p>Our Free Course page is packed full of exciting courses you can access for free. Gain
+                                    an accredited UK qualification and save a ton. Visit our Free Course page to find
+                                    out more.</p>
+                                <a href="" class="btn btn-outline-primary rounded-pill">Start Now</a>
+                            </div>
+                            <div class="overly bg-gradient"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="apply-course-card"
+                            style="background-image:url('./images/Global-Edulink-Student-ID-Card.png');">
+                            <div class="apply-course-card-content">
+                                <h3>Apply Now for Student ID Card</h3>
+                                <p>Amazing savings with global edulink student id card and more money to spend On The
+                                    Things You Love</p>
+                                <a href="" class="btn btn-outline-primary rounded-pill">Start Now</a>
+                            </div>
+                            <div class="overly bg-dark"></div>
+                        </div>
+                    </div>
+    </section>
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <div class="apply-course-card"
+                    style="background-image:url('./images/Global-Edulink-Become-an-Instructor.png');">
+                    <div class="apply-course-card-content">
+                        <h3>Become an Instructor</h3>
+                        <p>Top instructors from around the world teach thousands of students on Global Edulink. We
+                            provide the tools and skills to teach what you love.</p>
+                        <a href="" class="btn btn-outline-primary rounded-pill">Start Now</a>
+                    </div>
+                    <div class="overly bg-dark"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="apply-course-card"
+                    style="background-image:url('./images/Global-Edulink-Corporate-Training.png');">
+                    <div class="apply-course-card-content">
+                        <h3>Corporate Training</h3>
+                        <p>Provide training for your staff in a whole range of subjects with Global Edulink. Whether
+                            it’s creative thinking, first aid, technical writing, or telephone skills, we have courses
+                            covering many topics, so your staff can develop a range of practical skills.</p>
+                        <a href="" class="btn btn-outline-primary rounded-pill">Start Now</a>
+                    </div>
+                    <div class="overly bg-gradient"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+
+
+    <!-- partner-area -->
+    <section id="partners">
+        <div class="container mt-5 parntner-col">
+            <div class="partner-col">
+                <h1 class="text-center heading  text-dark">BRANDS WORKING WITH US</h1>
+                <div class="col-md-8 offset-md-2 brand-desc-col">
+                    <p class="text-center">
+                        If you want to get qualified it's important to make sure that the course you take is accredited,
+                        which means that an awarding body has inspected the course, and has approved the qualification.
+                        Awarding bodies are organizations that are strictly regulated, and make sure that the resources
+                        and qualifications they approve are of an extremely high standard
+                    </p>
+                </div>
+
+                <div class="text-center w-100 mb-4">
+                    <div class="partner_logo"><img src="./images/partner_logo1.png" class="img-fluid"></div>
+                    <div class="partner_logo"><img src="./images/partner_logo2.png" class="img-fluid"></div>
+                    <div class="partner_logo"><img src="./images/partner_logo3.png" class="img-fluid"></div>
+                    <div class="partner_logo"><img src="./images/partner_logo4.png" class="img-fluid"></div>
+                    <div class="partner_logo"><img src="./images/partner_logo5.png" class="img-fluid"></div>
+                    <div class="partner_logo"><img src="./images/partner_logo6.png" class="img-fluid"></div>
+                    <div class="partner_logo"><img src="./images/partner_logo7.png" class="img-fluid"></div>
+                    <div class="partner_logo"><img src="./images/partner_logo8.png" class="img-fluid"></div>
+                </div>
+                <div class="text-center">
+                    <a href="" class="view-all-btn text-uppercase text-center mt-4">View All</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- blog-area -->
+    <section id="blog-area">
+        <div class="container">
+            <h1 class="text-center heading mb-5  text-white">RECENT BLOG POSTS</h1>
+
+            <div class="owl-carousel owl-theme mb-4">
+                <div class="item">
+                    <div class="blog-card rounded-3">
+                        <div class="img-wrapper">
+                            <img src="./images//blog_img_1.jpeg" class="img-fluid blog-img  hover-zoom">
+                        </div>
+
+                        <a href="" class="text-decoration-none ">
+                            <h3 class="card-topic mt-2 card-link">What's the current job market for IT professionals
+                                like?</h3>
+                        </a>
+                        <p class="card-text">What exactly is an open-door policy? And, is it conducive to workplace
+                            success? The concise answer is yes...</p>
+
+                        <div class="card-footer bg-white border-0 p-0">
+                            <div class="d-flex">
+                                <img src="./images/card-footer-img.png" class="w-25 h-25">
+                                <p class="blog-date">Blog<br>JAN 12, 2023</p>
+                            </div>
+                            <a href="" class="btn btn-link">Read More <i class="fa fa-angle-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-card rounded-3">
+                        <div class="img-wrapper">
+                            <img src="./images//blog_img_2.jpeg" class="img-fluid blog-img  hover-zoom">
+                        </div>
+
+                        <a href="" class="text-decoration-none ">
+                            <h3 class="card-topic mt-2 card-link">What's the current job market for IT professionals
+                                like?</h3>
+                        </a>
+                        <p class="card-text">What exactly is an open-door policy? And, is it conducive to workplace
+                            success? The concise answer is yes...</p>
+
+                        <div class="card-footer bg-white border-0 p-0">
+                            <div class="d-flex">
+                                <img src="./images/card-footer-img.png" class="w-25 h-25">
+                                <p class="blog-date">Blog<br>JAN 12, 2023</p>
+                            </div>
+                            <a href="" class="btn btn-link">Read More <i class="fa fa-angle-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-card rounded-3">
+                        <div class="img-wrapper">
+                            <img src="./images//blog_img_3.jpeg" class="img-fluid blog-img  hover-zoom">
+                        </div>
+
+                        <a href="" class="text-decoration-none ">
+                            <h3 class="card-topic mt-2 card-link">What's the current job market for IT professionals
+                                like?</h3>
+                        </a>
+                        <p class="card-text">What exactly is an open-door policy? And, is it conducive to workplace
+                            success? The concise answer is yes...</p>
+
+                        <div class="card-footer bg-white border-0 p-0">
+                            <div class="d-flex">
+                                <img src="./images/card-footer-img.png" class="w-25 h-25">
+                                <p class="blog-date">Blog<br>JAN 12, 2023</p>
+                            </div>
+                            <a href="" class="btn btn-link">Read More <i class="fa fa-angle-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-card rounded-3">
+                        <div class="img-wrapper">
+                            <img src="./images//blog_img_4.jpeg" class="img-fluid blog-img  hover-zoom">
+                        </div>
+
+                        <a href="" class="text-decoration-none ">
+                            <h3 class="card-topic mt-2 card-link">What's the current job market for IT professionals
+                                like?</h3>
+                        </a>
+                        <p class="card-text">What exactly is an open-door policy? And, is it conducive to workplace
+                            success? The concise answer is yes...</p>
+
+                        <div class="card-footer bg-white border-0 p-0">
+                            <div class="d-flex">
+                                <img src="./images/card-footer-img.png" class="w-25 h-25">
+                                <p class="blog-date">Blog<br>JAN 12, 2023</p>
+                            </div>
+                            <a href="" class="btn btn-link">Read More <i class="fa fa-angle-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-card rounded-3">
+                        <div class="img-wrapper">
+                            <img src="./images//blog_img_5.jpeg" class="img-fluid blog-img  hover-zoom">
+                        </div>
+
+                        <a href="" class="text-decoration-none ">
+                            <h3 class="card-topic mt-2 card-link">What's the current job market for IT professionals
+                                like?</h3>
+                        </a>
+                        <p class="card-text">What exactly is an open-door policy? And, is it conducive to workplace
+                            success? The concise answer is yes...</p>
+
+                        <div class="card-footer bg-white border-0 p-0">
+                            <div class="d-flex">
+                                <img src="./images/card-footer-img.png" class="w-25 h-25">
+                                <p class="blog-date">Blog<br>JAN 12, 2023</p>
+                            </div>
+                            <a href="" class="btn btn-link">Read More <i class="fa fa-angle-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center">
+                <a href="" class="view-all-btn text-uppercase text-center mt-4 text-white">View All</a>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+
+    <!-- awads-area -->
+    <section id="awrds-area">
+        <div class="container">
+            <h1 class="text-center heading  text-dark">AWARDING BODIES</h1>
+            <div class="col-md-8 offset-md-2 brand-desc-col">
+                <p class="text-center">
+                    If you want to get qualified it's important to make sure that the course you take is accredited,
+                    which means that an awarding body has inspected the course, and has approved the qualification.
+                    Awarding bodies are organizations that are strictly regulated, and make sure that the resources
+                    and qualifications they approve are of an extremely high standard
+                </p>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img1.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img2.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img3.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img4.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img5.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div p-3">
+                            <img src="./images/awads_img6.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img7.png" class="img-fluid w-75 h-75" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img8.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img9.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img10.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img11.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-6">
+                    <div class="awards-card d-flex align-items-center justify-content-center">
+                        <div class="image-div">
+                            <img src="./images/awads_img12.png" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="" class="view-all-btn text-uppercase text-center mt-4">View All</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                    <div class="footer-col">
+                        <div class="footer-title">Contact Info</div>
+                        <div class="contact-info-area">
+                            <div class="contact-info">
+                                <div class="icon-wrapper"><i class="fa fa-phone"></i></div>
+                                <p><a href="" class="contact-item ms-2">Call Us +4420-8609-8200</a></p>
+                            </div>
+                            <div class="contact-info">
+                                <div class="icon-wrapper"><i class="fab fa-whatsapp"></i></div>
+                                <p class="contact-item"><a href="" class="contact-item ms-2">Whatsapp Us
+                                        +4475-8405-6454</a></p>
+                            </div>
+                            <div class="contact-info">
+                                <div class="icon-wrapper"><i class="fa fa-envelope"></i></div>
+                                <p class="contact-item"><a href=""
+                                        class="contact-item ms-2">Support@globaledulink.co.uk</a></p>
+                            </div>
+                            <div class="contact-info">
+                                <div class="icon-wrapper"><i class="fa fa-map-marker"></i></div>
+                                <p class="contact-item ms-2" class="contact-item ms-2">CityPoint, 1 Ropemaker Street,
+                                    London, EC2Y 9HU</p>
+                            </div>
+                        </div>
+                        <ul class="social-media justify-content-lg-between justify-content-center">
+                            <div class="social-icon-box">
+                                <li><a href=""><i class="fab fa-facebook-f social-icon"></i></a>
+                                </li>
+                            </div>
+
+                            <li><a href=""><i class="fab fa-twitter social-icon"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube social-icon"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram social-icon"></i></a>
+                            </li>
+                            <li><a href=""><i class="fab fa-linkedin-in social-icon"></i></a></li>
+                        </ul>
+                        <div class="d-inline-block verify_btn mt-4 w-100">
+                            <a href="/validate-certificate-code/" class="btn w-100 rounded-pill btn-outline-primary"
+                                style="color: #fff !important;border-color: #8F1AB9 !important;background-color: #8F1AB9 !important;">Verify
+                                Your Certificate</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="footer-col">
+                        <div class="footer-title">Quick Links</div>
+                        <ul class="footer-links">
+                            <li><a href="">Become an Instructor</a></li>
+                            <li><a href="">Corporate Training</a></li>
+                            <li><a href="">Our Partners</a></li>
+                            <li><a href="">Accrediting Bodies</a></li>
+                            <li><a href="">Live Online Classes</a></li>
+                            <li><a href="">Online Courses</a></li>
+                            <li><a href="">Classroom Courses</a></li>
+                            <li><a href="">ITIL® 4 Courses</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="footer-col">
+                        <div class="footer-title">Resources</div>
+                        <ul class="footer-links">
+                            <li><a href="">Free Courses</a></li>
+                            <li><a href="">Blogs</a></li>
+                            <li><a href="">Pay with Paypal</a></li>
+                            <li><a href="">Course Extension Fee</a></li>
+                            <li><a href="">Retake Exam Fee</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <div class="footer-col">
+                        <div class="footer-title">Support</div>
+                        <ul class="footer-links">
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Our Partners</a></li>
+                            <li><a href="">Terms &amp; Conditions</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-6 col-6">
+                    <div class="widget widget__logo">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="./images/footer-image-1.png" class="img-fluid" alt="....">
+                        </div>
+                        <div class="d-flex align-items-center justify-content-md-center">
+                            <img src="./images/footer-image-2.png" class="img-fluid me-2" alt="....">
+                            <img src="./images/footer-image-3.png" class="img-fluid" alt="....">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <img src="./images/footer-image-4.png" class="img-fluid">
+                </div>
+                <div class="col-md-6 align-items-center justify-content-center">
+                    <div class="d-flex float-end">
+                        <p class="me-2 pt-2">Choose your preferred language</p>
+                        <div class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle footer-dop-down" href="#" role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./images/en.png" class="pe-2"> English
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-7 col-md-6 col-12">
+                    <div class="copyRight d-flex align-items-center justify-content-md-start justify-content-center">
+                        Copyright © 2023 -GlobalEdulink - All Rights Reserved.
+                    </div>
+                </div>
+                <div class="sectery_icon col-lg-5 col-md-6 col-12 text-md-right">
+                    <div class="row">
+                        <div class="col">
+                            <div class="bg-white p-1 rounded-3 payment-box"><img src="./images/payment1.png"
+                                    class="img-fluid"></div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-1 rounded-3 payment-box"><img src="./images/payment2.png"
+                                    class="img-fluid"></div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-1 rounded-3 payment-box"><img src="./images/payment3.png"
+                                    class="img-fluid"></div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-1 rounded-3 payment-box"><img src="./images/payment4.png"
+                                    class="img-fluid"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+    <!-- bootstrap cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- owl-carousel-cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+
 </body>
+<script>
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 4
+            }
+        }
+    })
+
+</script>
+
 </html>
